@@ -3,3 +3,9 @@ venv
 
 # ignore all v3 directories
 v3
+
+# ignore all .deb
+*.deb
+
+# ignore all .pt
+*.pt
