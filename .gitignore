@@ -1,0 +1,5 @@
+# ignore all venv directories
+venv
+
+# ignore all v3 directories
+v3
