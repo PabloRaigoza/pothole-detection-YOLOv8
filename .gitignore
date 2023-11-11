@@ -9,3 +9,6 @@ v3
 
 # ignore all .pt
 *.pt
+
+# ignore all run directories
+run
