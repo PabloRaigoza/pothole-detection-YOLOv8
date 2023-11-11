@@ -1,7 +1,9 @@
 .PHONY: test venv
 
-run:
-	venv/bin/python3 learn.py
+download_v5:
+	mkdir v5
+	curl -L "https://app.roboflow.com/ds/7EAWMn2Er2?key=9ppE2ilw6E" > v5/roboflow.zip
+	unzip v5/roboflow.zip -d v5/
 
 train:
 	venv/bin/python3 train.py

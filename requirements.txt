@@ -1,6 +1,2 @@
-numpy
 opencv-python
-matplotlib
-scipy
-tensorflow
 ultralytics
